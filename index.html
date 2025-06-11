@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Plan podróży</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="./manifest.json">
+<meta name="theme-color" content="#1e1e2f">
+</head>
+<body>
+  <div class="container">
+    <h1>Plan podróży</h1>
+    <form id="tripForm">
+      <input list="countryList" id="country" placeholder="Kraj" required />
+      <datalist id="countryList"></datalist>
+      <input type="number" id="budget" placeholder="Budżet w PLN" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <button type="submit">Pokaż</button>
+    </form>
+    <div id="result" class="result"></div>
+  </div>
+  <script src="script.js"></script>
+  <script src="./sw.js"></script>
+</body>
+</html>
