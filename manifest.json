@@ -1,8 +1,8 @@
 {
-  "name": "Aplikacja Pogodowa",
-  "short_name": "WeatherApp",
-  "theme_color": "#1e1e2f",
-  "background_color": "#1e1e2f",
+  "name": "Plan Podróży",
+  "short_name": "Plan Podróży",
+  "theme_color": "#f4f8fc",
+  "background_color": "#f4f8fc",
   "display": "fullscreen",
   "orientation": "portrait",
   "scope": "/",
